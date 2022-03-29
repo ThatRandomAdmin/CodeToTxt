@@ -7,3 +7,4 @@ M:\CodeToTxt\CodeToText\obj\Debug\CodeToText.csproj.GenerateResource.cache
 M:\CodeToTxt\CodeToText\obj\Debug\CodeToText.csproj.CoreCompileInputs.cache
 M:\CodeToTxt\CodeToText\obj\Debug\CodeToText.exe
 M:\CodeToTxt\CodeToText\obj\Debug\CodeToText.pdb
+M:\CodeToTxt\CodeToText\obj\Debug\CodeToText.Form1.resources
