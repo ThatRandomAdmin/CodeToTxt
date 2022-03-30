@@ -1,4 +1,5 @@
 import shutil
+import os
 from tkinter import filedialog
 from pathlib import Path
 
@@ -13,6 +14,6 @@ import os
 for subdir, dirs, files in os.walk(dst_path):
     for file in files:
         filepath = subdir + os.sep + file
-        if filepath.endswith(".cs" or ".resx" or ".settings" or ".csproj" or ".config"):
-            p = Path(filepath)
-            p.rename(p.with_suffix('.txt'))
+        filename, file_extension = os.path.splitext(filepath)
+        p = Path(filepath)
+        p.rename(p.with_suffix(file_extension + '.txt'))
